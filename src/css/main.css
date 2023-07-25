@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.header {
+    background-color: #222;
+    padding: 25px 80px;
+    font-weight: 600;
+}
+
+main {
+    margin: 50px 100px;
+    width: 40%;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 5%;
+    float: left;
+}
+
+form input:not([type="checkbox"]),
+form textarea,
+form button {
+    width: 90%;
+    padding: 15px 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    background: #222;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+}
+
+form input[type="checkbox"] {
+    margin: 10px;
+}
+
+form button {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+
+form button:hover {
+    transform: scale(1.07);
+}
+
+.user form {
+    margin-top: 20px;
+}
+
+.user form input,
+.user form textarea,
+.user form button {
+background: #134b57;
+}
+
+.user form button:hover {
+    transform: scale(1.014);
+}
+
+
+main .user {
+    margin-bottom: 20px;
+    background-color: #3e8fa0;
+    padding: 20px;
+    box-shadow: 5px -5px #275762;
+}
+
+main .delete-icon {
+    float: right;
+    margin-left: 7px;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 1px #000)
+}
+
+main .edit-icon {
+    float: right;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 1px #000)
+}
+
+main .delete-icon:hover,
+main .edit-icon:hover {
+    opacity: 0.7;
+}
+
+
